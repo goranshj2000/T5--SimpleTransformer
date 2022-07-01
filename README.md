@@ -1,7 +1,7 @@
 
 # Transfer Learning with a Unified Text-to-Text Transformer
 Implementing the paper [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf).   
-This was the final course project for the course Neural Networks and Fuzzy logic at BITS Pilani.
+
 
 ## Overview
 The ***T5*** (Text-To-Text Transfer Transformer) model was the product of a large-scale study conducted to explore the limits of transfer learning. It builds upon popular architectures like GPT, BERT, and RoBERTa(to name only a few) models that utilized Transfer Learning with incredible success. While BERT-like models can be fine-tuned to perform a variety of tasks, the constraints of the architecture mean that each model can perform only one task.
@@ -122,16 +122,3 @@ All the necessary instructions are given in the Jupyter Notebooks for the tasks.
     └── t5_utils.py
 ```
 
-### Scripts for running the different modules
-
-You need none! The Jupyter Notebooks are self sufficient in terms of handling the data.
-> However, owing to the size constraints of the submission, you will have to download the finetuned models and the training data. The links for task-wise required files has been enclosed in README files in the respective folders.
-
-## Contributing
-Feel free to contribute features / point out errors. Fork this repository and make a pull request.  
-
-## References
-This project was majorly inspired by the [Simple Transformers Library](https://github.com/ThilinaRajapakse/simpletransformers) by [Thilina Rajapakse](https://github.com/ThilinaRajapakse). The developer has provided a multitude of resources with tips and guides on how to implement the various finetuning and operational tasks of T5. If you are even remotely interested in learning the Transformer Models, I would strongly recommend you to check out the library, which is very well documented and has an excellent supporting blog.
-
-## License
-This project is licensed under the [BSD-3](https://opensource.org/licenses/BSD-3-Clause) License
